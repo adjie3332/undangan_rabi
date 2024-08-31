@@ -42,3 +42,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.btn-music {
+  position: fixed;
+  bottom: 9vh !important;
+  right: 2vh !important;
+  z-index: 1055 !important;
+}
