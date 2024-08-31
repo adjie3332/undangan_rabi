@@ -64,6 +64,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<WelcomeCard />} />
+        <Route path="/:name" element={<WelcomeCard />} />
         <Route path="/home" element={<Home />} />
         <Route path="/couple" element={<Couple />} />
         <Route path="/date" element={<Date />} />

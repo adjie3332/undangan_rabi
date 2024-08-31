@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 const WelcomeCard = () => {
   const navigate = useNavigate();
-
+  const { name } = useParams();
   const handleOpenClick = () => {
     const welcomeElement = document.getElementById("welcome");
     welcomeElement.style.opacity = 0;
@@ -35,9 +35,8 @@ const WelcomeCard = () => {
           <h2 className="font-esthetic my-4" style={{ fontSize: "2.5rem" }}>
             Jindul &amp; Iwak
           </h2>
-          <div className="d-flex justify-content-center">
-            <h5 className="font-arabic">Kepada Yth.</h5>
-          </div>
+          <h5 className="font-arabic">Kepada Yth Bapak/Ibu/Saudara/i</h5>
+          <h5 className="font-arabic">{name}</h5>
           <button
             type="button"
             className="btn btn-light shadow rounded-4 mt-4"
