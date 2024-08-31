@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.font-arabic {
+  font-family: "Noto Naskh Arabic", serif;
+}
+.font-esthetic {
+  font-family: "Great Vibes", cursive;
+}
+
+/* Welcome */
+#welcome {
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Home */
+.mouse-animation {
+  padding: 0.25rem 0.625rem;
+  height: 2rem;
+  border-radius: 1.4rem;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
