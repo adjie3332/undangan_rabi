@@ -45,7 +45,7 @@ const Home = () => {
             className="btn btn-light btn-sm shadow rounded-pill px-3 my-2"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86"
+            href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Undangan+Pernikahan+Jindul+%26+Iwak&dates=20260315T000000/20260315T235959&details=Undangan+Pernikahan+Jindul+%26+Iwak&location=RT05/RW02+Dusun+TukSongo%2C+Desa+Krandon+Lor%2C+Kec.+Suruh%2C+Kab.+Semarang%2C+Jawa+Tengah+50774"
           >
             <FontAwesomeIcon icon={faCalendarCheck} className="me-2" />
             Save The Date
