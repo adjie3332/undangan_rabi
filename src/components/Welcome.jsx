@@ -7,6 +7,7 @@ import { useNavigate, useParams } from "react-router-dom";
 const WelcomeCard = () => {
   const navigate = useNavigate();
   const { name } = useParams();
+  const formattedName = name ? name.replace(/-/g, " ") : "Teman Temanku";
   const handleOpenClick = () => {
     const welcomeElement = document.getElementById("welcome");
     welcomeElement.style.opacity = 0;
@@ -36,7 +37,7 @@ const WelcomeCard = () => {
             Jindul &amp; Iwak
           </h2>
           <h5 className="font-arabic">Kepada Yth Bapak/Ibu/Saudara/i</h5>
-          <h5 className="font-arabic">{name}</h5>
+          <h5 className="font-arabic">{formattedName} ❤️</h5>
           <button
             type="button"
             className="btn btn-light shadow rounded-4 mt-4"
